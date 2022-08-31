@@ -6,8 +6,6 @@ Text.Continue();
 #endregion
 
 #region Game
-
-Combat combat = new Combat();
-combat.TurnCombat(hero);
+Combat.TurnCombat(hero);
 
 #endregion

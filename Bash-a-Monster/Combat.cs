@@ -1,10 +1,9 @@
 using System;
 public class Combat
 {
-    int turn = 1;
-    public List<Figther> Figthers = new List<Figther>();
-    public void TurnCombat(Figther h)
+    public static void TurnCombat(Figther h)
     {
+        List<Figther> Figthers = new List<Figther>();
         Figthers.Add(h);
         Slime slime = new Slime();
         slime.CreatSlime();

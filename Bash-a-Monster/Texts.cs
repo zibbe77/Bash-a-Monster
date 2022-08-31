@@ -16,6 +16,10 @@ public class Text
     }
     public static void EnemyG()
     {
-
+        System.Console.WriteLine("");
+    }
+    public static void CombatText()
+    {
+        System.Console.WriteLine("Vill du attackera");
     }
 }
